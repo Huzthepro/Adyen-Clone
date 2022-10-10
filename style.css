@@ -2,3 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body{
+}
+nav{ 
+  height: 70px;
+  background-color: aqua;
+}
+.seventypercent{
+  width: 70%;
+  margin: auto;
+}
