@@ -1,14 +1,37 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+.standartWidth{
+  max-width: 1248px;
+  margin: auto;
+}
+.text-left {
+  text-align: left !important;
+}
+.padding-top-24{
+  padding-top: 24px;
+}
+
 body{
+  color: #00112c;
+  font-family: "Fakt",sans-serif,Helvetica,Arial;
 }
+
+h1{
+  font-size: 64px;
+}
+p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 nav{ 
   height: 70px;
   background-color: aqua;
 }
-.seventypercent{
-  width: 70%;
-  margin: auto;
+nav ul{
+  list-style: none;
 }
