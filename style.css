@@ -13,8 +13,8 @@ body{
   -webkit-text-size-adjust: 100%;
 }
 .standartWidth{
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 21px;
+  padding-left: 16px;
   max-width: 1248px;
   max-height: 720px;
   margin: auto;
@@ -32,7 +32,8 @@ h1{
   font-size: 62px;
   letter-spacing: -0.015em;
   font-weight: 600;
-  line-height: 74px;
+  line-height: 78px;
+  
 }
 p{
   font-size: 18px;
@@ -59,6 +60,7 @@ nav{
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 5px;
+  letter-spacing: 0.1px;
 }
 nav ul{
   list-style: none;
@@ -81,6 +83,10 @@ nav .leftUl li{
 nav .logo{
   width: 90px;
   height: 30px;
+  margin-top: 7px;
+}
+nav .search{
+  width: 16px;
   margin-top: 7px;
 }
 nav button{
@@ -112,6 +118,7 @@ header{
   justify-content: space-between;
   margin-bottom: 48px;
   padding-top: 3px;
+  letter-spacing: 1.5px;
 }
 header .leftBox{
   flex: 0 0 41.66667%;
