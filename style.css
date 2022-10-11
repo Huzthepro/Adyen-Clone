@@ -156,3 +156,14 @@ header button{
 }
 header button:hover{
     background-color: #109143;
+}
+/* ---------------------------------------------------------------------- */
+/* BRANDS */
+/* ---------------------------------------------------------------------- */
+
+#brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
