@@ -16,7 +16,6 @@ body{
   padding-right: 21px;
   padding-left: 16px;
   max-width: 1248px;
-  max-height: 720px;
   margin: auto;
 }
 .text-left {
@@ -55,13 +54,15 @@ video{
 .navtwoItems{
   height: 70px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
   color: #00112c;
   font-weight: 400;
   line-height: 26px;
-  padding-bottom: 5px;
-
+  padding: 0 20px 0 20px;
+}
+.navtwoItems .dropdown{
+  width: 25px;
 }
 nav{ 
   height: 70px;
@@ -127,6 +128,7 @@ nav button{
 /* HEADER */
 /* ---------------------------------------------------------------------- */
 header{
+  max-height: 720px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -414,10 +416,15 @@ hr{
 /* ---------------------------------------------------------------------- */
 @media screen and (max-width: 820px) {
   
-	nav{
+	#originalNavbar{
     display: none;
   }
   .navTwo{
     display: block;
   }
+  header{
+    align-items: top;
+    max-height: 500px;
+  }
+
 }
