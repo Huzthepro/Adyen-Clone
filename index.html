@@ -16,6 +16,7 @@
 </head>
 <body>
 
+  <!-- NAVBAR -->
   <nav class="standartWidth ">
     <ul class="leftUl">
       <li> <img class="logo" src="images/logo.png" alt="Adyen logo"></li>
@@ -32,9 +33,9 @@
     </ul>
   </nav>
 
+  <!-- HEADER -->
   <header class="standartWidth">
-
-    <div class="leftBox">
+    <div class="leftBox"> <!-- LEFT -->
       <h1 class="padding-top-24 text-left">
        <strong>
         Engineered for ambition
@@ -48,7 +49,7 @@
       </button>
     </div>
 
-    <div class="rightBox">
+    <div class="rightBox"> <!-- RIGHT -->
       <video width="576" height="672" autoplay muted playsinline loop allowfullscreen>
         <source src="images/headerVideo.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -57,7 +58,10 @@
 
   </header>
 
-  <main>
+  <!-- MAIN CONTENT -->
+  <main> 
+
+    <!-- BRANDS(1) -->
     <section id="brands" class="brands standartWidth">
       <div><img src="images/uber-logobar-svg.svg" alt="Uber svg"></div>
       <div><img src="images/mango-logo-bar.svg" alt="Mango svg"></div>
@@ -67,15 +71,48 @@
       <div><img src="images/wix-logobar-svg.svg" alt="Wix svg"></div>
     </section>
 
-    <section id="brands2" class="brands standartWidth">
-      <div><img src="images/uber-logobar-svg.svg" alt="Uber svg"></div>
-      <div><img src="images/mango-logo-bar.svg" alt="Mango svg"></div>
-      <div><img src="images/ebay-logobar.svg" alt="Ebay svg"></div>
-      <div><img src="images/spotify-logobar-svg.svg" alt="Spotify svg"></div>
-      <div><img src="images/mcdonalds-logobar-svg.svg" alt="MC svg"></div>
-      <div><img src="images/wix-logobar-svg.svg" alt="Wix svg"></div>
+    <!-- PLATFORM SECTION -->
+    <section id="platform" class="platform">
+      <div class="container standartWidth">
+        <div class="platformFirstRow text-left"> <!-- 1. ROW -->
+          <h2><strong>One platform to accept payments, protect revenue, and control your finances.</strong></h2>
+        </div>
+        <div class="platformSecondRow text-left"> <!-- 2. ROW -->
+        <div class="platfromdiv"> <!-- 2. ROW >> 1.ITEM-->
+          <img src="images/world-icon-20-green.svg" alt="world icon svg">
+          <h4><strong>Expand your business</strong></h4>
+          <p>Easily add more payment methods and grow into new markets with local acquiring.</p>
+        </div>
+        <div class="platfromdiv"> <!-- 2. ROW >> 2.ITEM-->
+          <img src="images/unified-commerce-icon-24-green.svg" alt="commerce icon svg">
+          <h4><strong>Connect online and offline</strong></h4>
+          <p>Create superior customer experiences using cross-channel insights.</p>
+        </div>
+        <div class="platfromdiv"> <!-- 2. ROW >> 3.ITEM-->
+          <img src="images/graph-dots-24-green.svg" alt="graph svg">
+          <h4><strong>Uncover areas for growth</strong></h4>
+          <p>Gain a deeper understanding of your business with all your global payment data in one place.</p>
+        </div>
+        <div class="platfromdiv"> <!-- 2. ROW >> 4.ITEM-->
+          <img src="images/revenue-protect-icon-24-green.svg" alt="revenue icon svg">
+          <h4><strong>Manage fraud at scale</strong></h4>
+          <p>Protect your business by detecting and responding to fraud without impacting real transactions.</p>
+        </div>
+        </div>
+      </div>
     </section>
 
+    <!-- BRANDS(2) -->
+    <section id="brands2" class="brands standartWidth">
+      <div><img src="images/linkedin-logobar-svg.svg" alt="Linked in svg"></div>
+      <div><img src="images/shein-logobar-svg.svg" alt="Shein svg"></div>
+      <div><img src="images/hello-fresh-logobar-svg.svg" alt="hello fresh svg"></div>
+      <div><img src="images/booking-com-logobar-svg.svg" alt="Booking svg"></div>
+      <div><img src="images/farfetch-logobar-svg.svg" alt="Farfetch svg"></div>
+      <div><img src="images/flixbus-logobar.svg" alt="Flixbus svg"></div>
+    </section>
+
+    <!-- PAYMENTS -->
     <section id="payments" class="">
       <h2>Get started with payments</h2>
       <button>Explore solutions</button>
@@ -83,23 +120,67 @@
 
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <section class="footerContainer standartWidth">
-      <div class="footerFirstRow">
+      <div class="footerFirstRow"> <!-- First row -->
+        <ul>
+          <li><strong>About</strong></li> <!-- First row 1.List-->
+          <li>Careers</li>
+          <li>Press & Media</li>
+          <li>Investor Relations</li>
+          <li>Partners</li>
+          <li>Contact</li>
+        </ul>
+        
+        <ul>
+          <li><strong>Products</strong></li> <!-- First row 2.List-->
+          <li>Payments</li>
+          <li>Risk management</li>
+          <li>Authentication</li>
+          <li>Issuing</li>
+          <li>Pricing</li>
+        </ul>
 
+        <ul>
+          <li><strong>Resources</strong></li> <!-- First row 3.List-->
+          <li>Documentation</li>
+          <li>Support</li>
+          <li>Blog</li>
+          <li>Newsletter</li>
+        </ul>
+
+        <ul>
+          <li><strong>Platform</strong></li> <!-- First row 4.List-->
+          <li>Infrastructure</li>
+          <li>Licenses</li>
+          <li>Terms & Conditions</li>
+          <li>Legal</li>
+        </ul>
+
+        <div> <!-- First row 5.List-->
+          <h2>Want to stay up to date?</h2>
+          <p></p>
+          <div class="social">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+          </div>
+        </div>
       </div>
 
       <hr>
 
-      <div class="footerSecondRow">
-        <ul>
+      <div class="footerSecondRow"> <!-- Second row -->
+        <ul><!-- Second row LEFT -->
           <li>Privacy</li>
           <li>Cookies</li>
           <li>Disclaimer</li>
           <li>©2022 Adyen</li>
         </ul>
 
-        <button><span><img src="images/world.png" alt="world png"> Global(English)<img src="images/dropdownimage.png" alt="dropdown image"></span></button>
+        <button><!-- Second row RIGHT -->
+          <span><img src="images/world.png" alt="world png"> Global(English)<img src="images/dropdownimage.png" alt="dropdown image"></span></button>
       </div>
 
     </section>
