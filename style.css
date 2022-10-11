@@ -49,9 +49,11 @@ video{
 /* ---------------------------------------------------------------------- */
 /* NAVBAR */
 /* ---------------------------------------------------------------------- */
+.navTwo{
+  display: none;
+}
 .navtwoItems{
   height: 70px;
-  display: none;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -416,6 +418,6 @@ hr{
     display: none;
   }
   .navTwo{
-    display: flex;
+    display: block;
   }
 }
