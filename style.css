@@ -30,10 +30,10 @@ body{
 
 h1{
   font-size: 62px;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.015em; /* */
   font-weight: 600;
   line-height: 78px;
-  
+
 }
 p{
   font-size: 18px;
