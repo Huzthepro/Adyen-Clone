@@ -293,19 +293,73 @@ footer{
   flex: 0 0 31%;
   max-width: 31%;
 }
+input {
+  padding: 10px;
+  width: 80%;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  height: 50px;
+  border: solid 1px rgba(255, 255, 255, 0.281);
+  background-color: transparent;
+}
 .footerFirstRow h2{
   margin-bottom: 12px;
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
 }
+.footerFirstRow p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+    line-height: 18px;
+    color: #f3f6f979;
+}
+.classyButton{
+  display: flex;
+  flex-direction: row;
+  
+}
+.classyButton img{
+  background-color: #f3f6f9;
+  padding: 15px 20px 15px 20px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.social{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.mailSection a{
+text-decoration: underline;
+}
+.mailSection p{
+  font-size: 11px;
+}
+.social img{
+  border-radius: 5px;
+  margin-right: 14px;
+  padding: 10px;
+  border: solid 1px rgba(255, 255, 255, 0.199);
+}
 
 
+
+
+
+hr{
+  height: 0px;
+  border: none;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.247);
+}
 
 
 .footerSecondRow{
-  padding-bottom: 46px;
+  
   padding-top: 36px;
+  padding-bottom: 28px;
   color: white;
   display: flex;
   flex-direction: row;
@@ -318,12 +372,6 @@ footer{
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-hr{
-  height: 0px;
-  border: none;
-  border-top: 0.1px solid white;
 }
 
 .footerSecondRow li{
