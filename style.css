@@ -184,15 +184,15 @@ header button:hover{
   width: 60%;
 }
 .platformFirstRow h2{
-  
   font-size: 32px;
+  padding-bottom: 36px;
 }
 
 
 .platformSecondRow{
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items:top;
   justify-content:space-between;
   margin-bottom: 48px;
 }
@@ -204,8 +204,24 @@ header button:hover{
     padding-right: 48px;
  }
  .platform img{
-  width: 20px;
-  padding-bottom: 20px;
+  width: 24px;
+  margin-bottom: 24px;
+  }
+  .platformSecondRow h4{
+    letter-spacing: -0.015em;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+  .platformSecondRow p{
+    color: rgba(46, 46, 46, 0.719);
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 28px;
+  }
+  .platformSecondRow a{
+    color: #0abf53;
   }
 
 
@@ -255,7 +271,7 @@ footer{
 
 
 .footerFirstRow{
-  padding-bottom: 49px;
+  padding-bottom: 46px;
   padding-top: 96px;
   color: white;
   display: flex;
@@ -273,10 +289,22 @@ footer{
     line-height: 26px;
 }
 
+.mailSection{
+  flex: 0 0 31%;
+  max-width: 31%;
+}
+.footerFirstRow h2{
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
 
 
 .footerSecondRow{
-  padding-bottom: 36px;
+  padding-bottom: 46px;
   padding-top: 36px;
   color: white;
   display: flex;
@@ -291,13 +319,28 @@ footer{
   flex-direction: row;
   align-items: center;
 }
+
+hr{
+  height: 0px;
+  border: none;
+  border-top: 0.1px solid white;
+}
+
 .footerSecondRow li{
   padding-right: 6px;
+  color: #f0f0f0ab;
 }
 .footerSecondRow button{
   background-color: transparent;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-weight: 600;
   color: white;
   border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 .footerSecondRow button img{
   width: 18px;
