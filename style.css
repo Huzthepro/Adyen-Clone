@@ -190,7 +190,6 @@ header button:hover{
   color: #fff;
 }
 #payments button{
-  gap: 24px;
   color: #00112c;
     background-color: #fff;
     border-color: #fff;
@@ -208,4 +207,33 @@ header button:hover{
     transition: all .2s ease-in-out;
   
     border-radius: 6px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer */
+/* ---------------------------------------------------------------------- */
+footer{
+  background: #00112c;
+}
+.footerSecondRow{
+  padding-bottom: 24px;
+  padding-top: 24px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerSecondRow ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footerSecondRow button{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.footerSecondRow button img{
+  width: 18px;
 }
