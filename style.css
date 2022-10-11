@@ -32,7 +32,7 @@ h1{
   font-size: 62px;
   letter-spacing: -0.015em; /* */
   font-weight: 600;
-  line-height: 78px;
+  line-height: 74px;
 
 }
 p{
@@ -60,7 +60,7 @@ nav{
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 5px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.26px;
 }
 nav ul{
   list-style: none;
@@ -119,6 +119,12 @@ header{
   margin-bottom: 48px;
   padding-top: 3px;
   letter-spacing: 1.5px;
+}
+header h1{
+  margin-bottom: 8px;
+}
+header p{
+  margin-bottom: 8px;
 }
 header .leftBox{
   flex: 0 0 41.66667%;
