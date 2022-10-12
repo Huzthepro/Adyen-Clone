@@ -438,7 +438,7 @@ Responsive Design only for 2 size
 1- Tablet (Ipad Air = 820 x 1180)
 2- Phone (Iphone 12 pro = 390 x 844) */
 /* ---------------------------------------------------------------------- */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1095px) {
   .standartWidth{
     padding: 0 20px 0 20px;
   }
@@ -458,7 +458,7 @@ Responsive Design only for 2 size
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 650px) {
   
   .standartWidth{
     padding-right: 16px;
